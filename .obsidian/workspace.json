@@ -6,7 +6,7 @@
       {
         "id": "109d93779aab899f",
         "type": "tabs",
-        "dimension": 16.109154929577464,
+        "dimension": 22.876447876447877,
         "children": [
           {
             "id": "f93271a877865d2c",
@@ -28,7 +28,7 @@
       {
         "id": "a6ab758ea4ae53ec",
         "type": "tabs",
-        "dimension": 83.89084507042254,
+        "dimension": 77.12355212355212,
         "children": [
           {
             "id": "be543efd03a6259e",
@@ -37,7 +37,7 @@
               "type": "markdown",
               "state": {
                 "file": "滲透測試/11. Active Directory列舉及攻擊手法.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -101,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 200
   },
   "right": {
     "id": "28c70503cbe0cee1",
@@ -183,6 +183,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -193,22 +194,22 @@
   },
   "active": "be543efd03a6259e",
   "lastOpenFiles": [
-    "滲透測試/02. 列舉與掃描及攻擊手法.md",
     "滲透測試/03. 網頁攻擊手法.md",
-    "滲透測試/run.py",
-    "滲透測試/07. 密碼攻擊相關.md",
-    "滲透測試/09. Windows 提權手法.md",
-    "滲透測試/12. 指令速查手冊.md",
-    "滲透測試/08. Linux提權手法.md",
+    "滲透測試/02. 列舉與掃描及攻擊手法.md",
     "滲透測試/11. Active Directory列舉及攻擊手法.md",
-    "滲透測試/14. 補充資料.md",
+    "滲透測試/13. Evasion Techniques.md",
+    "滲透測試/12. 指令速查手冊.md",
+    "滲透測試/10. Port Redirection and SSH Tunneling.md",
+    "滲透測試/09. Windows 提權手法.md",
+    "滲透測試/06. 常見應用程式攻擊手法.md",
+    "滲透測試/08. Linux提權手法.md",
+    "滲透測試/07. 密碼攻擊相關.md",
     "滲透測試/05. Client Side Attack.md",
     "滲透測試/04. 常見服務攻擊手法.md",
-    "滲透測試/06. 常見應用程式攻擊手法.md",
-    "滲透測試/13. Evasion Techniques.md",
-    "滲透測試/10. Port Redirection and SSH Tunneling.md",
     "滲透測試/01. 前期情蒐.md",
     "滲透測試/00. 前言.md",
+    "滲透測試/run.py",
+    "滲透測試/14. 補充資料.md",
     "README.md",
     "滲透測試/haha.py",
     "Untitled",
