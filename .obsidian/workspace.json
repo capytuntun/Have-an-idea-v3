@@ -6,7 +6,7 @@
       {
         "id": "7648c5f05aff59ef",
         "type": "tabs",
-        "dimension": 26.086956521739136,
+        "dimension": 25.11933174224344,
         "children": [
           {
             "id": "08c9ebc196f89026",
@@ -28,7 +28,7 @@
       {
         "id": "485fa13a92c13309",
         "type": "tabs",
-        "dimension": 73.91304347826087,
+        "dimension": 74.88066825775657,
         "children": [
           {
             "id": "633739ae68896f44",
@@ -37,7 +37,7 @@
               "type": "markdown",
               "state": {
                 "file": "滲透測試/11. Active Directory列舉及攻擊手法.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -192,7 +192,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "08c9ebc196f89026",
+  "active": "633739ae68896f44",
   "lastOpenFiles": [
     "滲透測試/12. 指令速查手冊.md",
     "滲透測試/11. Active Directory列舉及攻擊手法.md",
