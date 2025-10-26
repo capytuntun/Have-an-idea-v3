@@ -6,7 +6,7 @@
       {
         "id": "7648c5f05aff59ef",
         "type": "tabs",
-        "dimension": 25.11933174224344,
+        "dimension": 22.673031026252982,
         "children": [
           {
             "id": "08c9ebc196f89026",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "滲透測試/01. 前期情蒐.md",
+                "file": "威脅情資/0X. Hunting Adversary Infrastructure.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01. 前期情蒐"
+              "title": "Outline of 0X. Hunting Adversary Infrastructure"
             }
           }
         ]
@@ -28,7 +28,7 @@
       {
         "id": "485fa13a92c13309",
         "type": "tabs",
-        "dimension": 74.88066825775657,
+        "dimension": 77.32696897374701,
         "children": [
           {
             "id": "633739ae68896f44",
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "滲透測試/01. 前期情蒐.md",
+                "file": "威脅情資/0X. Hunting Adversary Infrastructure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. 前期情蒐"
+              "title": "0X. Hunting Adversary Infrastructure"
             }
           }
         ]
@@ -195,26 +195,27 @@
   "active": "633739ae68896f44",
   "lastOpenFiles": [
     "滲透測試/03. 網頁攻擊手法.md",
+    "威脅情資/0X. Hunting Adversary Infrastructure.md",
+    "滲透測試/04. 常見服務攻擊手法.md",
+    "滲透測試/06. 常見應用程式攻擊手法.md",
+    "滲透測試/05. Client Side Attack.md",
     "滲透測試/02. 列舉與掃描及攻擊手法.md",
     "滲透測試/01. 前期情蒐.md",
+    "滲透測試/00. 前言.md",
+    "威脅情資",
     "滲透測試/11. Active Directory列舉及攻擊手法.md",
     "滲透測試/12. 指令速查手冊.md",
     "滲透測試/13. Evasion Techniques.md",
     "Untitled.base",
     "滲透測試/07. 密碼攻擊相關.md",
-    "滲透測試/06. 常見應用程式攻擊手法.md",
-    "滲透測試/04. 常見服務攻擊手法.md",
     "Untitled 1.base",
     "滲透測試/09. Windows 提權手法.md",
-    "滲透測試/00. 前言.md",
-    "滲透測試/05. Client Side Attack.md",
     "滲透測試/08. Linux提權手法.md",
     "滲透測試/10. Port Redirection and SSH Tunneling.md",
     "滲透測試/14. 補充資料.md",
     "滲透測試/run.py",
     "README.md",
     "滲透測試/haha.py",
-    "Untitled",
     "滲透測試"
   ]
 }
