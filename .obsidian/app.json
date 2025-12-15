@@ -1,3 +1,4 @@
 {
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "attachmentFolderPath": "./images"
 }
