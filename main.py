@@ -3,38 +3,58 @@ import re
 import sys
 import subprocess
 
+IMAGE_EXTS = (".png", ".jpg", ".jpeg", ".gif", ".webp")
+
 def rename_images(root_folder):
     for folder_path, _, filenames in os.walk(root_folder):
         for filename in filenames:
-            if filename.startswith("Pasted image"):
+            if " " in filename and filename.lower().endswith(IMAGE_EXTS):
                 new_name = filename.replace(" ", "_")
                 old_path = os.path.join(folder_path, filename)
                 new_path = os.path.join(folder_path, new_name)
+
                 if old_path != new_path:
                     os.rename(old_path, new_path)
-                    print(f"✅ Renamed: {old_path} → {new_path}")
+                    print(f"✅ Renamed image: {old_path} → {new_path}")
 
 def update_markdown_links(root_folder):
-    md_pattern = re.compile(r'!\[\[(Pasted image [\d]+\.png)\]\]')
+    """
+    支援：
+    ![[image.png]]
+    ![[folder/image.png]]
+    ![[image.png|300]]
+    """
+    obsidian_img_pattern = re.compile(r'!\[\[([^\]|]+)(\|[^\]]+)?\]\]')
 
     for folder_path, _, filenames in os.walk(root_folder):
         for filename in filenames:
-            if filename.endswith(".md"):
-                md_path = os.path.join(folder_path, filename)
-                with open(md_path, "r", encoding="utf-8") as f:
-                    content = f.read()
+            if not filename.endswith(".md"):
+                continue
 
-                matches = md_pattern.findall(content)
-                if matches:
-                    for match in matches:
-                        new_filename = match.replace(" ", "_")
-                        new_markdown = f"![Pasted image](images/{new_filename})"
-                        old_markdown = f"![[{match}]]"
-                        content = content.replace(old_markdown, new_markdown)
+            md_path = os.path.join(folder_path, filename)
+            with open(md_path, "r", encoding="utf-8") as f:
+                content = f.read()
 
-                    with open(md_path, "w", encoding="utf-8") as f:
-                        f.write(content)
-                    print(f"✏️ Updated Markdown: {md_path}")
+            matches = obsidian_img_pattern.findall(content)
+            if not matches:
+                continue
+
+            for img_path, _ in matches:
+                clean_path = img_path.replace(" ", "_")
+                old = f"![[{img_path}]]"
+                new = f"![]({clean_path})"
+
+                # 處理有 |300 這種尺寸的
+                content = re.sub(
+                    r'!\[\[' + re.escape(img_path) + r'(\|[^\]]+)?\]\]',
+                    new,
+                    content
+                )
+
+            with open(md_path, "w", encoding="utf-8") as f:
+                f.write(content)
+
+            print(f"✏️ Updated Markdown: {md_path}")
 
 def git_commit_and_push(root_folder, commit_msg):
     try:
@@ -59,10 +79,9 @@ def main():
 
     rename_images(root)
     update_markdown_links(root)
-
     git_commit_and_push(root, commit_msg)
 
-    print("\n🎉 所有圖片檔名與 Markdown 語法已更新並推送到 GitHub！")
+    print("\n🎉 所有 Obsidian 圖片已成功轉為 GitHub Markdown！")
 
 if __name__ == "__main__":
     main()
