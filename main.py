@@ -8,9 +8,9 @@ IMAGE_EXTS = (".png", ".jpg", ".jpeg", ".gif", ".webp")
 def rename_images(root_folder):
     for folder_path, _, filenames in os.walk(root_folder):
         for filename in filenames:
-            if " " in filename and filename.lower().endswith(IMAGE_EXTS):
-                new_name = filename.replace(" ", "_")
+            if filename.lower().endswith(IMAGE_EXTS) and " " in filename:
                 old_path = os.path.join(folder_path, filename)
+                new_name = filename.replace(" ", "_")
                 new_path = os.path.join(folder_path, new_name)
 
                 if old_path != new_path:
@@ -19,12 +19,14 @@ def rename_images(root_folder):
 
 def update_markdown_links(root_folder):
     """
-    支援：
-    ![[image.png]]
-    ![[folder/image.png]]
-    ![[image.png|300]]
+    所有 Obsidian 圖片語法：
+    ![[xxx.png]]
+    ![[images/xxx.png]]
+    ![[xxx.png|300]]
+    ![[folder/xxx.png]]
+    → ![](images/xxx.png)
     """
-    obsidian_img_pattern = re.compile(r'!\[\[([^\]|]+)(\|[^\]]+)?\]\]')
+    pattern = re.compile(r'!\[\[([^\]|]+)(\|[^\]]+)?\]\]')
 
     for folder_path, _, filenames in os.walk(root_folder):
         for filename in filenames:
@@ -32,22 +34,21 @@ def update_markdown_links(root_folder):
                 continue
 
             md_path = os.path.join(folder_path, filename)
+
             with open(md_path, "r", encoding="utf-8") as f:
                 content = f.read()
 
-            matches = obsidian_img_pattern.findall(content)
+            matches = pattern.findall(content)
             if not matches:
                 continue
 
-            for img_path, _ in matches:
-                clean_path = img_path.replace(" ", "_")
-                old = f"![[{img_path}]]"
-                new = f"![]({clean_path})"
+            for raw_path, _ in matches:
+                image_name = os.path.basename(raw_path).replace(" ", "_")
+                new_md = f"![](images/{image_name})"
 
-                # 處理有 |300 這種尺寸的
                 content = re.sub(
-                    r'!\[\[' + re.escape(img_path) + r'(\|[^\]]+)?\]\]',
-                    new,
+                    r'!\[\[' + re.escape(raw_path) + r'(\|[^\]]+)?\]\]',
+                    new_md,
                     content
                 )
 
@@ -81,7 +82,7 @@ def main():
     update_markdown_links(root)
     git_commit_and_push(root, commit_msg)
 
-    print("\n🎉 所有 Obsidian 圖片已成功轉為 GitHub Markdown！")
+    print("\n🎉 所有圖片已統一轉為 images/xxx 的 GitHub Markdown 格式！")
 
 if __name__ == "__main__":
     main()
