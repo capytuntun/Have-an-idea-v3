@@ -37,7 +37,7 @@
               "type": "markdown",
               "state": {
                 "file": "滲透測試/00. 前言.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -194,6 +194,8 @@
   },
   "active": "15075532ae963aa1",
   "lastOpenFiles": [
+    "滲透測試/images/200568832 1.jpg",
+    "main.py",
     "滲透測試/01. 前期情蒐.md",
     "滲透測試/00. 前言.md",
     "滲透測試/images/200568832.jpg",
