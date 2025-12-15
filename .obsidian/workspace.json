@@ -6,7 +6,6 @@
       {
         "id": "7648c5f05aff59ef",
         "type": "tabs",
-        "dimension": 19.9546485260771,
         "children": [
           {
             "id": "08c9ebc196f89026",
@@ -22,16 +21,9 @@
               "icon": "lucide-list",
               "title": "Outline of 00. 前言"
             }
-          }
-        ]
-      },
-      {
-        "id": "485fa13a92c13309",
-        "type": "tabs",
-        "dimension": 80.0453514739229,
-        "children": [
+          },
           {
-            "id": "15075532ae963aa1",
+            "id": "cea5d0583dca1020",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +36,8 @@
               "title": "00. 前言"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,14 +185,16 @@
       "templates:Insert template": false
     }
   },
-  "active": "15075532ae963aa1",
+  "active": "cea5d0583dca1020",
   "lastOpenFiles": [
+    "滲透測試/images/200568832.jpg",
+    "滲透測試/images/200568832_1.jpg",
+    "滲透測試/images/200568832_2.jpg",
+    "滲透測試/00. 前言.md",
     "滲透測試/images/200568832 2.jpg",
     "滲透測試/images/200568832 1.jpg",
     "main.py",
     "滲透測試/01. 前期情蒐.md",
-    "滲透測試/00. 前言.md",
-    "滲透測試/images/200568832.jpg",
     "滲透測試/images",
     "README.md",
     "200568832.jpg",
