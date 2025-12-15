@@ -37,7 +37,7 @@
               "type": "markdown",
               "state": {
                 "file": "滲透測試/00. 前言.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -194,11 +194,12 @@
   },
   "active": "15075532ae963aa1",
   "lastOpenFiles": [
+    "滲透測試/01. 前期情蒐.md",
+    "滲透測試/00. 前言.md",
     "滲透測試/images/200568832.jpg",
     "滲透測試/images",
     "README.md",
     "200568832.jpg",
-    "滲透測試/00. 前言.md",
     "滲透測試/11. Active Directory列舉及攻擊手法.md",
     "滲透測試/10. Port Redirection and SSH Tunneling.md",
     "滲透測試/12. 指令速查手冊.md",
@@ -209,7 +210,6 @@
     "滲透測試/05. Client Side Attack.md",
     "滲透測試/03. 網頁攻擊手法.md",
     "滲透測試/08. Linux提權手法.md",
-    "滲透測試/01. 前期情蒐.md",
     "C Sharp/01. 基礎語法.md",
     "滲透測試/13. Evasion Techniques.md",
     "滲透測試/04. 常見服務攻擊手法.md",
