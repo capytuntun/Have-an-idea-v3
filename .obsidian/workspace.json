@@ -6,6 +6,7 @@
       {
         "id": "7648c5f05aff59ef",
         "type": "tabs",
+        "dimension": 19.22094508301405,
         "children": [
           {
             "id": "08c9ebc196f89026",
@@ -13,31 +14,33 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "滲透測試/00. 前言.md",
+                "file": "C Sharp/02. 進階語法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00. 前言"
+              "title": "Outline of 02. 進階語法"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "54fee855dd39484e",
+        "type": "tabs",
+        "dimension": 80.77905491698596,
+        "children": [
           {
             "id": "cea5d0583dca1020",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "滲透測試/00. 前言.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "00. 前言"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,10 +188,20 @@
       "templates:Insert template": false
     }
   },
-  "active": "cea5d0583dca1020",
+  "active": "4d3f97ca86686f96",
   "lastOpenFiles": [
-    "滲透測試/images/200568832.jpg",
+    "C Sharp/01. 基礎語法.md",
+    "滲透測試/11. Active Directory列舉及攻擊手法.md",
+    "滲透測試/07. 密碼攻擊相關.md",
+    "滲透測試/12. 指令速查手冊.md",
+    "滲透測試/06. 常見應用程式攻擊手法.md",
+    "滲透測試/09. Windows 提權手法.md",
+    "威脅情資/0X. Hunting Adversary Infrastructure.md",
+    "Active Directory建置",
+    "威脅情資/0X. 網路空間繪測工具CheatSheet.md",
+    "C Sharp/02. 進階語法.md",
     "滲透測試/00. 前言.md",
+    "滲透測試/images/200568832.jpg",
     "滲透測試/images/200568832_1.jpg",
     "滲透測試/images/200568832_2.jpg",
     "滲透測試/images/200568832 2.jpg",
@@ -198,23 +211,14 @@
     "滲透測試/images",
     "README.md",
     "200568832.jpg",
-    "滲透測試/11. Active Directory列舉及攻擊手法.md",
     "滲透測試/10. Port Redirection and SSH Tunneling.md",
-    "滲透測試/12. 指令速查手冊.md",
-    "滲透測試/07. 密碼攻擊相關.md",
-    "滲透測試/09. Windows 提權手法.md",
     "滲透測試/02. 列舉與掃描及攻擊手法.md",
-    "滲透測試/06. 常見應用程式攻擊手法.md",
     "滲透測試/05. Client Side Attack.md",
     "滲透測試/03. 網頁攻擊手法.md",
     "滲透測試/08. Linux提權手法.md",
-    "C Sharp/01. 基礎語法.md",
     "滲透測試/13. Evasion Techniques.md",
     "滲透測試/04. 常見服務攻擊手法.md",
     "滲透測試/14. 補充資料.md",
-    "C Sharp/02. 進階語法.md",
-    "威脅情資/0X. Hunting Adversary Infrastructure.md",
-    "威脅情資/0X. 網路空間繪測工具CheatSheet.md",
     "C Sharp",
     "威脅情資",
     "Untitled.base",
