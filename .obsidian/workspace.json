@@ -6,7 +6,7 @@
       {
         "id": "7648c5f05aff59ef",
         "type": "tabs",
-        "dimension": 19.22094508301405,
+        "dimension": 22.39482200647249,
         "children": [
           {
             "id": "08c9ebc196f89026",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSINT/01. 基礎OSINT.md",
+                "file": "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/01. Boolean Functions and Gate Logic.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01. 基礎OSINT"
+              "title": "Outline of 01. Boolean Functions and Gate Logic"
             }
           }
         ]
@@ -28,7 +28,7 @@
       {
         "id": "54fee855dd39484e",
         "type": "tabs",
-        "dimension": 80.77905491698596,
+        "dimension": 77.6051779935275,
         "children": [
           {
             "id": "cea5d0583dca1020",
@@ -36,30 +36,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "滲透測試/06. 常見應用程式攻擊手法.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "06. 常見應用程式攻擊手法"
-            }
-          },
-          {
-            "id": "178c7978306dc016",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSINT/01. 基礎OSINT.md",
+                "file": "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/01. Boolean Functions and Gate Logic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01. 基礎OSINT"
+              "title": "01. Boolean Functions and Gate Logic"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 331.5
   },
   "right": {
     "id": "28c70503cbe0cee1",
@@ -207,50 +192,53 @@
       "templates:Insert template": false
     }
   },
-  "active": "178c7978306dc016",
+  "active": "cea5d0583dca1020",
   "lastOpenFiles": [
-    "OSINT/images/螢幕擷取畫面_2026-01-04_210231.png",
-    "OSINT/images/Pasted_image_20260104210337.png",
-    "OSINT/images/Pasted_image_20260104210136.png",
-    "OSINT/images/Pasted image 20260104210337.png",
-    "OSINT/images/螢幕擷取畫面 2026-01-04 210231.png",
-    "OSINT/images/Pasted image 20260104210136.png",
-    "滲透測試/00. 前言.md",
-    "OSINT/01. 基礎OSINT.md",
-    "OSINT/00. 前言.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213054211.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213053524.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213053520.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213053500.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213053437.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213053436.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213052134.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213052115.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213045621.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213045502.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213045354.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images",
     "滲透測試/01. 前期情蒐.md",
-    "滲透測試/03. 網頁攻擊手法.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/01. Boolean Functions and Gate Logic.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/00. Course Info.md",
+    "滲透測試/00. 前言.md",
+    "滲透測試/09. Windows 提權手法.md",
+    "OSINT/00. 前言.md",
+    "Course-Notes/C++ For C Programmers, Part B",
+    "Course-Notes/C++ For C Programmers, Part A",
+    "Course-Notes/C for Everyone, Part 2 Structured Programming",
+    "Course-Notes/C for Everyone, Part 1 Programming Fundamentals",
+    "README.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/03. Memory.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/02. Boolean Arithmetic and the ALU.md",
+    "Course-Notes/Coding for Everyone C and C++/C for Everyone, Part 1 Programming Fundamentals/01. Module1.md",
     "滲透測試/06. 常見應用程式攻擊手法.md",
-    "OSINT/images",
+    "Course-Notes/Coding for Everyone_ C_and_C_plus_plus/00. Course Info.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)",
+    "Course-Notes/Coding for Everyone C and C++/C for Everyone, Part 1 Programming Fundamentals",
+    "Course-Notes/Coding for Everyone C and C++/00. Course Info.md",
+    "Course-Notes/Coding for Everyone C and C++",
+    "Course-Notes/Coding for Everyone_ C_and_C_plus_plus/01. Part_1_Programming_Fundamentals/01. Module1.md",
+    "Untitled.md",
+    "Course-Notes/Coding for Everyone_ C_and_C_plus_plus/01. Part_1_Programming_Fundamentals",
+    "Course-Notes/Coding for Everyone_ C_and_C_plus_plus",
+    "威脅情資/0X. Hunting Adversary Infrastructure.md",
+    "威脅情資/0X. 網路空間繪測工具CheatSheet.md",
+    "OSINT/01. 基礎OSINT.md",
+    "滲透測試/03. 網頁攻擊手法.md",
     "滲透測試/08. Linux提權手法.md",
     "滲透測試/10. Port Redirection and SSH Tunneling.md",
     "滲透測試/13. Evasion Techniques.md",
     "滲透測試/11. Active Directory列舉及攻擊手法.md",
     "C Sharp/02. 進階語法.md",
-    "OSINT",
-    "C Sharp/01. 基礎語法.md",
-    "滲透測試/07. 密碼攻擊相關.md",
-    "滲透測試/12. 指令速查手冊.md",
-    "滲透測試/09. Windows 提權手法.md",
-    "威脅情資/0X. Hunting Adversary Infrastructure.md",
-    "Active Directory建置",
-    "威脅情資/0X. 網路空間繪測工具CheatSheet.md",
-    "滲透測試/images/200568832.jpg",
-    "滲透測試/images/200568832_1.jpg",
-    "滲透測試/images/200568832_2.jpg",
-    "滲透測試/images/200568832 2.jpg",
-    "滲透測試/images/200568832 1.jpg",
-    "main.py",
-    "滲透測試/images",
-    "README.md",
-    "滲透測試/02. 列舉與掃描及攻擊手法.md",
-    "滲透測試/05. Client Side Attack.md",
-    "滲透測試/04. 常見服務攻擊手法.md",
-    "滲透測試/14. 補充資料.md",
-    "C Sharp",
-    "威脅情資",
-    "Untitled.base",
-    "Untitled 1.base",
-    "滲透測試/run.py"
+    "C Sharp/01. 基礎語法.md"
   ]
 }
