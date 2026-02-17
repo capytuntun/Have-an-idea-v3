@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/03. Memory.md",
+                "file": "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/02. Boolean Arithmetic and the ALU.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03. Memory"
+              "title": "Outline of 02. Boolean Arithmetic and the ALU"
             }
           }
         ]
@@ -36,26 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/03. Memory.md",
-                "mode": "source",
+                "file": "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/02. Boolean Arithmetic and the ALU.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03. Memory"
-            }
-          },
-          {
-            "id": "b57c7dab2ceede30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/01. Boolean Functions and Gate Logic.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01. Boolean Functions and Gate Logic"
+              "title": "02. Boolean Arithmetic and the ALU"
             }
           }
         ]
@@ -115,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 297.5
   },
   "right": {
     "id": "28c70503cbe0cee1",
@@ -206,27 +192,30 @@
       "templates:Insert template": false
     }
   },
-  "active": "cea5d0583dca1020",
+  "active": "4d3f97ca86686f96",
   "lastOpenFiles": [
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted_image_20260213190919.png",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted_image_20260213190734.png",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted_image_20260213190446.png",
+    "Course-Notes/OSEP",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/03. Memory.md",
     "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/01. Boolean Functions and Gate Logic.md",
     "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/02. Boolean Arithmetic and the ALU.md",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/03. Memory.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/04. Machine Language.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260214173924.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/06. Assembler.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260214062340.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/05. Computer Architecture.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260214062010.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260214061107.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260214060221.png",
+    "Course-Notes/C for Everyone, Part 1 Programming Fundamentals/00. Course Info.md",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260214055255.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260214054932.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted_image_20260213190213.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted_image_20260213184834.png",
+    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted_image_20260213184637.png",
     "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/00. Course Info.md",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213190919.png",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213190734.png",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213190446.png",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213190213.png",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213184834.png",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213184637.png",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213072632.png",
-    "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images/Pasted image 20260213071525.png",
     "Course-Notes/C++ For C Programmers, Part B/00. Course Info.md",
     "Course-Notes/C++ For C Programmers, Part A/00. Course Info.md",
     "Course-Notes/C for Everyone, Part 2 Structured Programming/00. Course Info.md",
-    "Course-Notes/C for Everyone, Part 1 Programming Fundamentals/00. Course Info.md",
     "Course-Notes/Build a Modern Computer from First Principles From Nand to Tetris (Project-Centered Course)/images",
     "滲透測試/01. 前期情蒐.md",
     "滲透測試/00. 前言.md",
@@ -250,9 +239,6 @@
     "Course-Notes/Coding for Everyone_ C_and_C_plus_plus",
     "威脅情資/0X. Hunting Adversary Infrastructure.md",
     "威脅情資/0X. 網路空間繪測工具CheatSheet.md",
-    "OSINT/01. 基礎OSINT.md",
-    "滲透測試/03. 網頁攻擊手法.md",
-    "滲透測試/08. Linux提權手法.md",
-    "滲透測試/10. Port Redirection and SSH Tunneling.md"
+    "OSINT/01. 基礎OSINT.md"
   ]
 }
